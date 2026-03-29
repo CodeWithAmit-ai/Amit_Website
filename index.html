@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="logo">AM</div>
+
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#footer">About</a></li>
+    <li><a href="#card">Services</a></li>
+    <li><a href="#">Contact</a></li>
+
+    <!-- 🔍 Search Bar -->
+    <li>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+      </div>
+    </li>
+  </ul>
+</nav>
+<section class="hero">
+  <div class="hero-content">
+    <h1>Welcome to My Website</h1>
+    <p>Start your journey with us and explore amazing features.</p>
+    <button class="start-btn">Get Started</button>
+  </div>
+</section>
+<div class="card-container" id="card">
+
+  <!-- Card 1 -->
+  <div class="card">
+    <img src="https://wallpapers.com/images/hd/healthy-food-pictures-ooa1298olf3hm6qz.jpg" alt="">
+    <div class="card-content">
+      <h2>Healthy Food</h2>
+      <a href="Healthy/healthy.html">
+        <button>Explore</button>
+      </a>
+      
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card">
+    <img src="https://myindianthings.com/cdn/shop/products/Gym_Yoga_wallpapers-compressed-page-008_1024x.jpg?v=1658401561" alt="">
+    <div class="card-content">
+      <h2>Fitness</h2>
+      <a href="Fitness/fitness.html">
+        <button>Start</button>
+      </a>
+      
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHIx651ZGsHYeflqTOYoZoICwpjpSnBhfpOA&s" alt="">
+    <div class="card-content">
+      <h2>Travel</h2>
+      <a href="Travel/travel.html">
+        <button>Discover</button>
+      </a>
+      
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="card">
+    <img src="https://wallpapers.com/images/hd/4k-tech-twtykjtj0sv4hi62.jpg" alt="">
+    <div class="card-content">
+      <h2>Technology</h2>
+      <a href="Technology/technology.html">
+        <button>Learn</button>
+      </a>
+      
+    </div>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="card">
+    <img src="https://plus.unsplash.com/premium_photo-1682125773446-259ce64f9dd7?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZWR1Y2F0aW9ufGVufDB8fDB8fHww" alt="">
+    <div class="card-content">
+      <h2>Education</h2>
+      <a href="Education/education.html">
+        <button>Read</button>
+      </a>
+      
+    </div>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="card">
+    <img src="https://t3.ftcdn.net/jpg/07/16/68/02/360_F_716680208_zbvl2W3pOjMKJcJu8sDLJkRmrd2lJtsx.jpg" alt="">
+    <div class="card-content">
+      <h2>Music</h2>
+      <a href="Music/music.html">
+        <button>Play</button>
+      </a>
+      
+    </div>
+  </div>
+</div>
+<div class="form-container">
+  <form>
+    <h2>Student Form</h2>
+
+    <input type="text" placeholder="Enter your name" required>
+    <input type="date" placeholder="Enter your age" required>
+    <input type="text" placeholder="Enter your department" required>
+    <input type="email" placeholder="Enter your email" required>
+
+    <button type="submit">Send</button>
+  </form>
+</div>
+<footer class="footer" id="footer">
+  <div class="footer-container">
+
+    <!-- Logo / About -->
+    <div class="footer-section">
+      <h2 class="logo">MyWebsite</h2>
+      <p>Building modern and responsive web experiences.</p>
+    </div>
+
+    <!-- Links -->
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-section">
+      <h3>Contact</h3>
+      <p>Email: example@mail.com</p>
+      <p>Phone: +91 1234567890</p>
+    </div>
+
+    <!-- Social -->
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#">🌐</a>
+        <a href="#">📘</a>
+        <a href="#">📸</a>
+        <a href="#">🐦</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 MyWebsite | All Rights Reserved</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
